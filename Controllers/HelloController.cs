@@ -16,5 +16,16 @@ namespace helloworld.Controllers
         {
             return "Samantha";
         }
+        [HttpGet("/bsms")]
+        public string BSMs()
+        {
+            return " Responsabilidade pessoal \n Mentalidade de Crescimento \n Orientação ao Futuro \n Persistência \n " +
+                "Comunicação \n Orientação aos Detalhes \n Trabalho em Equipe \n Proatividade";
+        }
+        [HttpGet("/objetivos")]
+        public string Objetivos()
+        {
+            return " Orientação aos Detalhes \n Proatividade";
+        }
     }
 }
